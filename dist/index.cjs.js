@@ -2459,15 +2459,18 @@ var StyledPanel = styled__default['default'].div(templateObject_1$D || (template
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
 var RugDoc = styled__default['default'].a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+var AssureKyc = styled__default['default'].a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
 var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
+        React__default['default'].createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
+            React__default['default'].createElement("img", { src: "/images/kyc.png" })),
         React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
             React__default['default'].createElement("img", { src: "/images/rugdoc-dark.png" })),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
-var templateObject_1$D, templateObject_2$d;
+var templateObject_1$D, templateObject_2$d, templateObject_3$8;
 
 var Icon$17 = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
@@ -2711,7 +2714,7 @@ var StyledNav = styled__default['default'].nav(templateObject_2$g || (templateOb
     var theme = _a.theme;
     return theme.nav.background;
 });
-var BodyWrapper = styled__default['default'].div(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n"], ["\n  position: relative;\n  display: flex;\n"])));
+var BodyWrapper = styled__default['default'].div(templateObject_3$9 || (templateObject_3$9 = __makeTemplateObject(["\n  position: relative;\n  display: flex;\n"], ["\n  position: relative;\n  display: flex;\n"])));
 var Inner = styled__default['default'].div(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  flex-grow: 1;\n  margin-top: ", ";\n  transition: margin-top 0.2s;\n  transform: translate3d(0, 0, 0);\n  ", " {\n    margin-left: ", ";\n  }\n"], ["\n  flex-grow: 1;\n  margin-top: ", ";\n  transition: margin-top 0.2s;\n  transform: translate3d(0, 0, 0);\n  ", " {\n    margin-left: ", ";\n  }\n"])), function (_a) {
     var showMenu = _a.showMenu;
     return (showMenu ? MENU_HEIGHT + "px" : 0);
@@ -2775,7 +2778,7 @@ var Menu = function (_a) {
             React__default['default'].createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React__default['default'].createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
 };
-var templateObject_1$H, templateObject_2$g, templateObject_3$8, templateObject_4$3, templateObject_5$1;
+var templateObject_1$H, templateObject_2$g, templateObject_3$9, templateObject_4$3, templateObject_5$1;
 
 var ToastAction = function (_a) {
     var action = _a.action;
