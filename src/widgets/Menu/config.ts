@@ -177,11 +177,11 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/FarmVertex",
   },
-  // {
-  //   label: "Reddit",
-  //   icon: "RedditIcon",
-  //   href: "",
-  // },
+  {
+    label: "Reddit",
+    icon: "RedditIcon",
+    href: "https://www.reddit.com/r/PolyVertex/",
+  },
 ];
 
 export const MENU_HEIGHT = 64;

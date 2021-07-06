@@ -2274,6 +2274,11 @@ var socials = [
         icon: "TwitterIcon",
         href: "https://twitter.com/FarmVertex",
     },
+    {
+        label: "Reddit",
+        icon: "RedditIcon",
+        href: "https://www.reddit.com/r/PolyVertex/",
+    },
 ];
 var MENU_HEIGHT = 64;
 var MENU_ENTRY_HEIGHT = 48;
