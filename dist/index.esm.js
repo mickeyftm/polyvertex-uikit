@@ -2218,67 +2218,18 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/polyvertex",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            // {
-            //   label: "中文",
-            //   href: "",
-            // },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            // {
-            //   label: "Italiano",
-            //   href: "",
-            // },
-            // {
-            //   label: "русский",
-            //   href: "",
-            // },
-            // {
-            //   label: "Türkiye",
-            //   href: "",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/polyvertex_spanish",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/polyvertex_portugues",
-            },
-            // {
-            //   label: "日本語",
-            //   href: "",
-            // },
-            // {
-            //   label: "Français",
-            //   href: "",
-            // },
-            {
-                label: "Announcements",
-                href: "https://t.me/polyvertex_announcements",
-            },
-        ],
+        href: "https://t.me/polyvertex",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
         href: "https://twitter.com/FarmVertex",
     },
-    {
+{/*    {
         label: "Reddit",
         icon: "RedditIcon",
         href: "https://www.reddit.com/r/PolyVertex/",
-    },
+    },*/}
 ];
 var MENU_HEIGHT = 64;
 var MENU_ENTRY_HEIGHT = 48;
@@ -2450,18 +2401,15 @@ var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeT
     var isPushed = _a.isPushed;
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
-var RugDoc = styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
-var AssureKyc = styled.a(templateObject_3$8 || (templateObject_3$8 = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
+{/* var RugDoc = styled__default['default'].a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
 var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
-    return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
-        React.createElement(PanelBody, __assign({}, props)),
-        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
-            React.createElement("img", { src: "/images/kyc.png" })),
-        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
-            React.createElement("img", { src: "/images/rugdoc-dark.png" })),
-        React.createElement(PanelFooter, __assign({}, props))));
-};
+    return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
+        React__default['default'].createElement(PanelBody, __assign({}, props)),
+        React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
+            React__default['default'].createElement("img", { src: "/images/rugdoc-dark.png" })),
+        React__default['default'].createElement(PanelFooter, __assign({}, props))));
+}; */}
 var templateObject_1$D, templateObject_2$d, templateObject_3$8;
 
 var Icon$17 = function (props) {
