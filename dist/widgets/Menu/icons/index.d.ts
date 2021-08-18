@@ -26,3 +26,4 @@ export { default as BondsIcon } from "./Bonds";
 export { default as VaultsIcon } from "./Vaults";
 export { default as EggHouseIcon } from "./EggHouse";
 export { default as CommunityIcon } from "./Community";
+export { default as Ballot } from "./Ballot";
